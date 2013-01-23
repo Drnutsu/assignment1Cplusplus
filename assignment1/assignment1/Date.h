@@ -3,13 +3,15 @@
 
 #include<string>
 
-class Date(){
+using namespace std;
+class Date{
+	
 	const int day = 1;
 	const int years = 2000;
 	const string month = "January";
 	Date();
 	Date(int, int, string);
-	
+
 	const int getDay() const;
 	const int getYear() const;
 	const string getMonth() const;
